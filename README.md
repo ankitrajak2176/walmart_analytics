@@ -30,7 +30,7 @@ Validation: Check for any remaining inconsistencies and verify the cleaned data.
 ### 7. Feature Engineering
 Create New Columns: Calculate the Total Amount for each transaction by multiplying unit_price by quantity and adding this as a new column.
 Enhance Dataset: Adding this calculated field will streamline further SQL analysis and aggregation tasks.
-### 8. Load Data into MySQL and PostgreSQL
+### 8. Load Data into PostgreSQL
 Set Up Connections: Connect to MySQL and PostgreSQL using sqlalchemy and load the cleaned data into each database.
 Table Creation: Set up tables in both MySQL and PostgreSQL using Python SQLAlchemy to automate table creation and data insertion.
 Verification: Run initial SQL queries to confirm that the data has been loaded accurately.
@@ -42,6 +42,8 @@ Sales performance by time, city, and payment method.
 Analyzing peak sales periods and customer buying patterns.
 Profit margin analysis by branch and category.
 Documentation: Keep clear notes of each query's objective, approach, and results.
+
+'''sql select * from walmart '''
 ### 10. Project Publishing and Documentation
 Documentation: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
 Project Publishing: Publish the completed project on GitHub or any other version control platform, including:
