@@ -42,8 +42,6 @@ Sales performance by time, city, and payment method.
 Analyzing peak sales periods and customer buying patterns.
 Profit margin analysis by branch and category.
 Documentation: Keep clear notes of each query's objective, approach, and results.
-
-'''sql select * from walmart '''
 ### 10. Project Publishing and Documentation
 Documentation: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
 Project Publishing: Publish the completed project on GitHub or any other version control platform, including:
